@@ -5,7 +5,7 @@ namespace Sender.Repository
 {
     public class MessageRepository : IMessageRepository
     {
-        private readonly string getAllByChatIdUrl = "https://l4jxuuaahcjzvvsrf2esccpz2i0lnlar.lambda-url.us-east-2.on.aws/";
+        private readonly string getAllByChatIdUrl = "";
         private readonly IRequester requester;
         public MessageRepository(IRequester requester)
         {
